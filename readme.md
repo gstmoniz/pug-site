@@ -1,5 +1,8 @@
-<h1>página de teste usando os seguintes cursos da Alura:</h1>
-<p>CSS: dispondo elementos com Flexbox e Grid</p>
-<p>HTML e CSS: responsividade com mobile-first</p> 
+## **Página simples de teste usando os seguintes cursos da Alura:**
+- CSS: dispondo elementos com Flexbox e Grid
+- HTML e CSS: responsividade com mobile-first
+- Praticando HTML e CSS
 
-Dois exemplos de como esconder menus: com e sem js
+#### O site apresenta duas maneiras de esconder os menus: com e sem o uso de javascript.
+
+#### O site está hospedado em um [bucket s3 da AWS](http://pug-site.com.s3-website-us-east-1.amazonaws.com).
