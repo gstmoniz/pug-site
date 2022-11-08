@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#9749; Página de Teste</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Pacifico&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <button class="cabecalho-menu-hamburguer cabecalho-icone" aria-label="menu"></button>
+            <img src="img/pug3.png" alt="logotipo da página" class="cabecalho-icone-logo">
+            <div class="container-desktop">
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-1">home</a>
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-2">história</a>
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-3">curiosidades</a>
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-4">cuidados com a raça</a>
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-5">sir strike: o pug rei</a>
+                <a href="#" class="menu-esquerda-desktop-link menu-esquerda-desktop-link-6">contato</a>
+            </div>
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/heart-solid.svg" alt="favoritos" class="cabecalho-icone"></a>
+            <a href="#"><img src="img/cart-shopping-solid.svg" alt="carrinho" class="cabecalho-icone"></a>
+            <input type="checkbox" id="menu-perfil" class="container-usuario">
+            <label for="menu-perfil">
+                <span><img src="img/circle-user-solid.svg" alt="menu usuário" class="cabecalho-icone 
+                    cabecalho-icone-usuario"></span>
+            </label>
+            <nav class="menu-direita">
+                <a href="#" class="menu-direita-link menu-direita-link-1">profile</a>
+                <a href="#" class="menu-direita-link menu-direita-link-2">settings</a>
+                <a href="#" class="menu-direita-link menu-direita-link-3">logout</a>
+            </nav>    
+        </div>
+    </header>
+    <div class="menus"> 
+        <nav class="menu-esquerda">
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-1">home</a>
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-2">história</a>
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-3">curiosidades</a>
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-4">cuidados com a raça</a>
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-5">sir strike: o pug rei</a>
+            <a href="#" class="menu-esquerda-link menu-esquerda-link-6">contato</a>
+        </nav>
+    </div>
+    <section class="banner">
+        <h2 class="banner-titulo">Deleite-se no universo dos pugs</h2>
+        <p class="banner-texto">O Pug é um animal autêntico e sublime, perfumado com um distinto
+            charme maturado ao longo de sua trajetória histórica. Durante gerações os pugs foram
+            escolhidos para encantar os círculos de poder e ostentação, desde as extravagantes
+            dinastias da China Antiga até as luxuosas cortes europeias da Renascença. São seres
+            superiores, cintilantes, marcados por hábitos nobres e adocicados, que mesmo reservados
+            irradiam inteligência, requinte e brandura.</p>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Exemplos de espécimes</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/1.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/2.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/3.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/4.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/5.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/6.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/7.pug.jpeg" alt="imagem de pug"></div>
+            <div class="swiper-slide"><img src="img/8.pug.jpeg" alt="imagem de pug"></div>
+        </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="contato">
+        <h2 class="contato-titulo">Receba diariamente fotos de pugs</h2>
+        <p class="contato-texto">Fofurinhas do mundo todo te aguardam!</p>
+        <div class="contato-interacao">
+            <input type="email" placeholder="cadastre seu email" class="contato-email">
+            <button class="contato-enviar">enviar</button>
+        </div>
+    </section>
+    <hr/>
+    <footer class="rodape">
+        <h3 class="rodape-texto">&#169; 2022 Gustavo Moniz Ribeiro &#8226; página de teste</h3>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+    <script src="index.js"></script>  
+</body>
+</html>
