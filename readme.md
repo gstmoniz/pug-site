@@ -5,6 +5,6 @@
 
 #### O site apresenta duas maneiras de esconder os menus: com e sem o uso do JavaScript.
 
-#### O site está hospedado em um bucket S3 da AWS (static website endpoint) e pode ser acessado através do CloudFront.  
+#### O site está hospedado em um bucket S3 que, por ser acessado através do CloudFront, não precisa de acesso público de leitura.  
 
 <ins>[Visite o pug-site](https://d1ixaj5zmrbjkd.cloudfront.net)</ins>
