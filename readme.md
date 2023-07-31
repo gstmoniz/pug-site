@@ -7,4 +7,4 @@
 
 #### O site está hospedado em um bucket S3 da AWS (static website endpoint) e pode ser acessado através do CloudFront.  
 
-<ins>[Visite o pug-site](https://d1mf66us61usti.cloudfront.net/index.html)</ins>
+<ins>[Visite o pug-site](https://d1ixaj5zmrbjkd.cloudfront.net)</ins>
